@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-color: #202020;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    width: 10px;
+    height: 4px;
+    color: white;
+    border-radius: 3px;
+    margin: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: cornsilk;
+    height: 500px;
+    width: 100%;
+}
+p{
+    float: inline-start;
+    font-style: italic;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+}
+img{
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    background-color: #202020;
+    height: 190px;
+}
+.copy{
+    color: white;
+    margin: 7px;
+}
+.name{
+    color: white;
+}
